@@ -15,14 +15,14 @@ const Header = ({ text, para }) => {
     background-size: cover;
     background-position: center;
     background-attachment: auto;
-    height: 35vh;
+    height: 60vh;
     width: 100vw;
   `;
   const style = {
     wrapper: "",
     heading:
       "tracking-wide text-3xl md:text-6xl lg:text-7xl text-neutral-100  my-2 md:my-3 text-center md:text-left font-semibold text-center mx-auto",
-    para: "w-[100%] md:w-[45%] lg:w-[55%] text-center my-2 md:my-4 text-white font-thin text-xs md:text-lg lg:text-lg mx-auto",
+    para: "w-[100%] md:w-[100%] lg:w-[95%] text-center my-2 md:my-4 text-white font-thin text-xs md:text-lg lg:text-lg mx-auto",
     btn: " px-7 md:px-5 py-2 md:py-3 transition duration-[200ms] max-w-fit mx-auto md:mx-0 text-text text-md",
     arrow: `text-lg text-text`,
     btnContainer:

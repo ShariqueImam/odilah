@@ -16,7 +16,7 @@ const Reviews = () => {
       "flex flex-wrap md:no-wrap items-center justify-center gap-12",
     headingContainer: "flex items-center jusitfy-center flex-col my-8",
     heading:
-      "max-w-fit mx-auto flex items-center jusitfy-center flex-col my-3 md:my-6 text-gray-900 text-3xl md:text-5xl font-semibold text-stone-600 ",
+      "max-w-fit mx-auto flex items-center jusitfy-center flex-col my-3 md:my-6 text-gray-900 text-3xl md:text-5xl font-semibold text-stone-600 text-center",
     reviewLeft: `${isVisible && "animate__animated animate__fadeInLeft"} mx-auto flex items-center justify-center`,
     reviewRight: `${isVisible && "animate__animated animate__fadeInRight"} mx-auto flex items-center justify-center`,
     reviewCenter: `${isVisible && "animate__animated animate__fadeInUp"} mx-auto flex items-center justify-center`,

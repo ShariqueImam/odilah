@@ -5,7 +5,7 @@ import Faq from "./components/Faq/Faq";
 import Contact from "./components/Contact/Contact";
 import Privacy from "./components/Privacy/Privacy";
 import "./App.css";
-import { BrowserRouter, Routes, Route, Link, Outlet } from "react-router-dom";
+import {  Routes, Route, Link, Outlet, BrowserRouter } from "react-router-dom";
 const style = {
   wrapper: "overflow-x-hidden w-[100vw] font",
 };
